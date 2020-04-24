@@ -1,0 +1,36 @@
+{
+    "viewPlugin" : {
+        "cutoutConfig" : {
+            "style": "rect",
+            "maxWidthPercent": "80%",
+            "maxHeightPercent": "80%",
+            "alignment": "center",
+            "width": 450,
+            "ratioFromSize": {
+                "width": 1,
+                "height": 1
+            },
+            "strokeWidth": 2,
+            "cornerRadius": 300,
+            "strokeColor": "FFFFFF",
+            "outerColor": "000000",
+            "outerAlpha": 0.3,
+            "cropPadding": {
+                "x": 10,
+                "y": 10
+            },
+            "feedbackStrokeColor": "0099FF"
+        },
+        "scanFeedback" : {
+            "style": "rect",
+            "strokeWidth": 1,
+            "strokeColor": "0099FF",
+            "fillColor": "220099FF",
+            "cornerRadius": 10,
+            "beepOnResult": true,
+            "vibrateOnResult": true,
+            "blinkAnimationOnResult": true
+        },
+        "cancelOnResult" : true
+    }
+}
